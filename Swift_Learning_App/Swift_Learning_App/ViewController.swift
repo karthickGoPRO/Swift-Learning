@@ -6,14 +6,23 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var buttonSet : UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        AppCenter.start(withAppSecret: "1fb205f5-0641-4f11-a33d-82fbd81d03bc", services:[
+          Crashes.self
+        ])
     }
-
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
 }
 
