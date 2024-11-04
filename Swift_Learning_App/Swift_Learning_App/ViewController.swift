@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupViews()
-        AppCenter.start(withAppSecret: "1fb205f5-0641-4f11-a33d-82fbd81d03bc", services:[
+        AppCenter.start(withAppSecret: "5a1a7028-5dea-48d3-8950-bd93a8a122cf", services:[
           Crashes.self
         ])
     }
