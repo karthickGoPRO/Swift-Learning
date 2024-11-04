@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Swift_Learning_App_Swift_Learning_AppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Swift_Learning_App_Swift_Learning_AppUITests
+@end
