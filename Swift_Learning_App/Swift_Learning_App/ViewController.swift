@@ -66,6 +66,7 @@ class ViewController: UIViewController {
         AppCenter.start(withAppSecret: "5a1a7028-5dea-48d3-8950-bd93a8a122cf", services:[
           Crashes.self
         ])
+        eenjenklejnlkeglkengklengkleg
     }
     
     private func setupViews() {
