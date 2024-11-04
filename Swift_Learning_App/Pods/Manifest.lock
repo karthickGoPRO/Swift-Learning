@@ -1,22 +1,23 @@
 PODS:
-  - Alamofire (5.10.1)
-  - SDWebImage (5.20.0):
-    - SDWebImage/Core (= 5.20.0)
-  - SDWebImage/Core (5.20.0)
+  - AppCenter (5.0.5):
+    - AppCenter/Analytics (= 5.0.5)
+    - AppCenter/Crashes (= 5.0.5)
+  - AppCenter/Analytics (5.0.5):
+    - AppCenter/Core
+  - AppCenter/Core (5.0.5)
+  - AppCenter/Crashes (5.0.5):
+    - AppCenter/Core
 
 DEPENDENCIES:
-  - Alamofire
-  - SDWebImage
+  - AppCenter
 
 SPEC REPOS:
   trunk:
-    - Alamofire
-    - SDWebImage
+    - AppCenter
 
 SPEC CHECKSUMS:
-  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
-  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  AppCenter: 994875ea7941b9e168babb98299f900a94bcef13
 
-PODFILE CHECKSUM: f917666efaaaf5bb3d92fffaee767699458537ba
+PODFILE CHECKSUM: e757fb44c9e39d27d70e9916b1df7912442b5892
 
 COCOAPODS: 1.16.2
